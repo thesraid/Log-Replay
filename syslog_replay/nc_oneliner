@@ -1,0 +1,4 @@
+echo "event" | nc -w1 IP_SENSOR 601 # TCP
+echo "event" | nc -u -w 0 192.168.65.200 514 # UDP
+
+cat can be used instead of echo as well I believe
